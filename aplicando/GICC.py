@@ -27,18 +27,33 @@ imagem:
 ....O....
 '''
 
-grid = [['.', '.', '.', '.', '.', '.'],
-        ['.', 'O', 'O', '.', '.', '.'],
-        ['O', 'O', 'O', 'O', '.', '.'],
-        ['O', 'O', 'O', 'O', 'O', '.'],
-        ['.', 'O', 'O', 'O', 'O', 'O'],
-        ['O', 'O', 'O', 'O', 'O', '.'],
-        ['O', 'O', 'O', 'O', '.', '.'],
-        ['.', 'O', 'O', '.', '.', '.'],
-        ['.', '.', '.', '.', '.', '.']]
+
+def printar_array_formatado():
+    grid = [['.', '.', '.', '.', '.', '.'],
+            ['.', 'O', 'O', '.', '.', '.'],
+            ['O', 'O', 'O', 'O', '.', '.'],
+            ['O', 'O', 'O', 'O', 'O', '.'],
+            ['.', 'O', 'O', 'O', 'O', 'O'],
+            ['O', 'O', 'O', 'O', 'O', '.'],
+            ['O', 'O', 'O', 'O', '.', '.'],
+            ['.', 'O', 'O', '.', '.', '.'],
+            ['.', '.', '.', '.', '.', '.']]
+    nova_matriz = manipular_Grid(grid)
+    lenght_geral = len(nova_matriz)
+    lenght_linha = len(nova_matriz[0])
+    matriz = ""
+    i = 0
+    while i < lenght_geral:
+        j =0
+        while j < lenght_linha:
+            matriz += nova_matriz[i][j]
+            j += 1
+        matriz+='\n'
+        i += 1
+    return matriz
 
 def manipular_Grid(grid):
-    coordenadas = []
+    nova_matriz = [[],[],[],[],[],[]]
     length = len(grid)
     length_linha = len(grid[0])
 
@@ -46,11 +61,11 @@ def manipular_Grid(grid):
     while i < length_linha:
         j=0
         while j < length:
-            coordenadas.append(grid[j][i])
+            nova_matriz[i].append(grid[j][i])
             j +=1
         i+=1
 
 
-    return coordenadas
+    return nova_matriz
 
-print(manipular_Grid(grid))
+print(printar_array_formatado())
