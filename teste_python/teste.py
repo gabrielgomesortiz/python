@@ -1,5 +1,6 @@
 '''Se number for par, collatz() deverá exibir n = n / 2 e retornar esse valor.
 Se number for ímpar, collatz() deverá exibir e retornar n = 3*n + 1'''
+
 #basico:
 '''
 def collatz(number):
@@ -17,19 +18,7 @@ def collatz(number):
 
 collatz(number)
 '''
-#vamos complicar
-'''
-def fibonacci(n):
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        return fibonacci(n-1) + fibonacci(n-2)
-
-print(fibonacci(10))
-
-'''
+#vamos complicar um pouco
 
 n = 13
 sequence = [n]
