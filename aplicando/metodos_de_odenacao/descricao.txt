@@ -1,11 +1,12 @@
 fiquei com vontade então vou testar aplicar esses algoritmos de ordenção e ver o quão legal é.
 
-Quick Sort
+1.Quick Sort: Esse ta feito. foi dificil, interressante, pois saber que as chamadas recursivas, 
+funcionam de maneira idenpende. Isso é bem legal
 
-Merge Sort
+2.Merge Sort: agora é esse.
 
-Heap Sort
+3.Heap Sort
 
-Counting Sort
+4.Counting Sort
 
-Tim Sort
+5.Tim Sort
