@@ -1,0 +1,11 @@
+fiquei com vontade então vou testar aplicar esses algoritmos de ordenção e ver o quão legal é.
+
+Quick Sort
+
+Merge Sort
+
+Heap Sort
+
+Counting Sort
+
+Tim Sort
