@@ -1,11 +1,15 @@
+E esse arquiv é um roteiro de aplicações:
+
 fiquei com vontade então vou testar aplicar esses algoritmos de ordenção e ver o quão legal é.
 
 1.Quick Sort: Esse ta feito. foi dificil, interressante, pois saber que as chamadas recursivas, 
 funcionam de maneira idenpende. Isso é bem legal
 
-2.Merge Sort: agora é esse.
+2.Merge Sort: esse ta feito. foi o mais dificil que o quick sort, pois quando imprimia a divisão do array
+acidentalmente acabei gerando uma arvore binaria e fiquei horas ate conseguir entender como se 
+manipulava. E depois de aprender a dividir array no quick sort fica facil implementar a divisão recursiva.
 
-3.Heap Sort
+3.Heap Sort: agora é esse nesse.
 
 4.Counting Sort
 
